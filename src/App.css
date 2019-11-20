@@ -1,0 +1,154 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #e9ebee;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.panel {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    position: relative;
+    background-color: #fff;
+}
+
+.panel.panel-default {
+    border: 1px solid;
+    border-color: #d4d5d8 #ced0d3 #c0c0c4;
+}
+
+.panel .panel-heading {
+    background: transparent;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-bottom: 0px;
+    padding: 20px 20px 7px 20px;
+    position: relative;
+    z-index: 3;
+    color: inherit;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    border-color: #ddd;
+}
+
+.panel .panel-heading.separator:after {
+    content: "";
+    height: 1px;
+    background: rgba(0, 0, 0, 0.08);
+    left: 16px;
+    right: 16px;
+    position: absolute;
+    bottom: 0;
+}
+
+.panel-heading a:not(.btn) {
+    color: #2C2C2C !important;
+    opacity: .4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.panel .panel-heading .panel-controls {
+    float: right;
+    margin-top: -3px;
+}
+
+.panel .panel-body {
+    padding: 20px;
+    padding-bottom: 70px;
+}
+
+
+.table thead tr th {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: inherit;
+    font-size: 13px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.7);
+    color: rgba(20, 20, 20, 0.35);
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table tbody tr td {
+    background: #fff;
+    border-bottom: 1px solid rgba(221, 221, 221, 0.7);
+    border-top: 0px;
+    padding: 8px;
+    font-size: 13.5px;
+}
+
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    font-family: inherit, arial, sans-serif;
+    -webkit-appearance: none;
+    color: #141414;
+    outline: 0;
+    height: 35px !important;
+    width: 85%;
+    padding: 0px 12px;
+    line-height: normal;
+    font-size: 14px;
+    font-weight: normal;
+    vertical-align: middle;
+    min-height: 35px;
+    -webkit-transition: all 0.12s ease;
+    transition: all 0.12s ease;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-transition: background 0.2s linear 0s;
+    transition: background 0.2s linear 0s;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:first-child>.btn-group:not(:first-child)>.btn, .input-group-btn:first-child>.btn:not(:first-child), .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group>.btn, .input-group-btn:last-child>.dropdown-toggle {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.search-input {
+    border-radius: 25px;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font: inherit;
+    color: inherit;
+}
+
+
+.btn-default, .btn-default:focus {
+    color: #5e5e5e;
+    background-color: #fff;
+    border-color: #ebebeb;
+    padding: 7px;
+    margin-left:-26px;
+}

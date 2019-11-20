@@ -1,0 +1,67 @@
+.dataTables_paginate {
+    float: right;
+    margin-top: 25px !important;
+}
+
+.pagination_button.disabled {
+    color: #D3D3D3 !important;
+    pointer-events: none;
+}
+
+.btn:hover, .btn:focus, .btn:active, .btn.active, .btn.disabled, .btn[disabled], .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    box-shadow: none;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65;
+}
+
+.pagination_button, .dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #626262;
+    margin: 2px;
+    padding: 4px 8px !important;;
+    cursor: pointer !important;
+    line-height: 17px;
+}
+
+.btn, .dataTables_wrapper .dataTables_paginate .paginate_button {
+    font-family: inherit, arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 0.01em;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    margin-bottom: 0;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    background-image: none !important;
+    color: #2C2C2C;
+    background-color: #fff;
+    text-shadow: none;
+    box-shadow: none;
+    line-height: 21px;
+    padding-left: 17px;
+    padding-right: 17px;
+    position: relative;
+    transition: color 0.1s linear 0s, background-color 0.1s linear 0s, opacity 0.2s linear 0s !important;
+}
+
+.pagination_button.active {
+    color: #FFFFFF;
+    background-color: #007A87;
+    font-weight: bold;
+    pointer-events: none;
+}
