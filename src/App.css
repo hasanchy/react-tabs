@@ -152,3 +152,85 @@ button, input, optgroup, select, textarea {
     padding: 7px;
     margin-left:-26px;
 }
+
+
+.nav-tabs-simple, .nav-tabs.nav-tabs-left:after, .nav-tabs.nav-tabs-right:after {
+    border-bottom: 0;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs-simple>li {
+    margin-bottom: 0;
+}
+.nav-tabs>li {
+    padding-left: 0;
+    padding-right: 0;
+}
+.nav-tabs>li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav>li, .nav>li>a {
+    display: block;
+    position: relative;
+}
+
+.nav-tabs>li>a {
+    border-radius: 0;
+    padding: 15px 20px;
+    margin-right: 0;
+    font-family: inherit;
+    font-weight: 400;
+    color: rgba(44,44,44,.7);
+    min-width: 70px;
+    text-transform: capitalize;
+    border-color: transparent;
+}
+
+.modal.fade.fill-in>.close>i, .nav-tabs>li>a {
+    font-size: 16px;
+}
+.nav-tabs>li>a {
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+}
+.nav>li>a {
+    padding: 10px 15px;
+}
+.nav>li, .nav>li>a {
+    display: block;
+    position: relative;
+}
+
+a, a:active, a:focus, a:hover {
+    text-decoration: none;
+}
+
+
+.nav-tabs-simple:after {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+    position: relative;
+    bottom: 3px;
+    z-index: 120;
+}
+
+.nav-tabs-simple>li.active:after, .nav-tabs-simple>li:hover:after {
+    height: 3px;
+}
+
+.nav-tabs-simple>li:after {
+    -webkit-transition: all .1s linear 0s;
+    transition: all .1s linear 0s;
+    width: 100%;
+    display: block;
+    background-color: #007A87;
+    height: 0;
+    content: '';
+    z-index: 125;
+}

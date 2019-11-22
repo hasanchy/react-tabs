@@ -2,23 +2,23 @@ import React from 'react';
 import './assets/font-awesome/css/all.min.css';
 import './assets/report-designer.css';
 import './App.css';
+import Tabs from './tabs/index';
+import Workflows from './workflows';
  
 function App() {
     
-    
+    var data = [
+            { id: 'workflows', label: 'Workflows', content: { component: Workflows }},
+            { id: 'action_types', label: 'Action Types', content: { component: Workflows }}
+        ]
     
   return (
     <div className="panel panel-default m-t-5" style={{margin:"20px"}}>
         <div className="panel-heading separator m-b-10">
-            <span style={{fontSize:"18px"}}>Contacts</span>
-            <div className="panel-controls">
-                <a id="tools_tableexportexcel_unsubscribe" data-target="#" href="#" data-toggle="dropdown" data-backdrop="false" aria-haspopup="true" role="button" aria-expanded="false">
-                    <i className="far fa-fw fa-download"></i>
-                </a>
-            </div>
+            <span style={{fontSize:"18px"}}>Tabs</span>
         </div>
         <div className="panel-body">
-            Hello world!
+            <Tabs data={data} disableInactiveTabs={false} />
         </div>
     </div>
   );
